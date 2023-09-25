@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>book store</title>
+    <meta name="describtion" contect="this is our book store" />
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+    <!-- this is comment -->
+</head>
+
+<body>
+
+    <!-- h1  h6 -->
+    <h1> Book Store </h1>
+    <h2> Chapter Title inside Book </h2>
+    <h3> Story Title inside Chapter </h3>
+
+    <!--b = bold
+         strong = bold = important text 
+         i = italic
+         em = emphasized نص مايل 
+         mark = marked text or highlight text
+         u = underline 
+         small = smaller text
+         del = deleted text 
+         ins = inserted text 
+         sub = subscript تبع معادلات الكيمياء
+         sup = superscript 
+
+        -->
+    <!-- p = block ( paraghraph )-->
+    <p class="one">this is my <b> book store </b> ,<mark> welcome </mark> </p>
+    <p class="one">this is my <strong> book store </strong> , welcome </p>
+    <p class="two">We have a big sale </p>
+    <p hidden> We have a big sale </p>
+
+    <!-- a = unline -->
+    <a href="1.html" target="_blank" title="HTML"> 1.html </a>
+    <a href="http://google.com" target="_blank" title="Go to goole"> Google</a>
+    <p> <a href="http://facebook.com" target="_blank" title="Go to facebook"> facebook</a> </p>
+    <p> <a href="#Aya" title="paragraph"> Aya </a> </p>
+    <a href="mail to:aya_sobeeh@yahoo.com" target="_blank" title="Mail"> contact me </a>
+    <a href="1.html" target="_blank" title="HTML"> 1.html </a>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat in suscipit optio! Dolorem, facilis
+        consequatur. Aperiam, corrupti. Illo, fuga architecto asperiores quos maxime eos dolores itaque iusto, aliquam,
+        provident enim!</p>
+    <p id="Aya"> Aya Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus eos impedit aliquam
+        magnam atque perferendis iste illum sequi sapiente, at nisi labore quae fugit soluta fuga saepe provident hic!
+    </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae optio eaque id amet deleniti earum error
+        laudantium nulla. Repudiandae cumque sunt dolor saepe sapiente iusto porro nisi debitis, quae magnam.</p>
+
+    <!-- 
+         src = source
+         alt = altrnate text
+        -->
+    <img src="C:\Users\AyaMahmoud_Hp\Downloads\1404.jpg" alt=" will not show " width="200px">
+    <img src="aya/C:\Users\AyaMahmoud_Hp\Documents\My Project\aya.html\aya\1404.jpg" alt="" width="100px">
+
+
+    <img src="imgs/home/1404.jpg" alt="will not show" width="100px">
+    <img src="../1404.jpg" alt=" will not show" width="100px">
+    <img src="hvhchd.jpg>" alt="error" width="100px">
+
+    <!-- ul= unordered list
+        li= list item
+        ol = ordered list
+        -->
+    <ul>
+        <li>HTML </li>
+        <li>CSS</li>
+        <li>JS
+            <ul>
+                <li>gsh</li>
+                <li>bhf</li>
+                <li>hfghg</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--
+           reverse = reverse the ordering
+           start = startfrom position 
+           type = type of ordering 
+        -->
+
+    <ol reversed>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <ol start="100"> <!--type عادي-->
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <ol start="A">
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <ol>
+        <li value="10">Html</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <!-- 
+            dl = description list
+            dt = description term
+            dd = description of the term 
+        -->
+    <dl>
+        <dt>html</dt>
+        <dd>languange of the web</dd>
+        <dd>languange of the web </dd>
+
+        <dt>CSS</dt>
+        <dd>the best languange</dd>
+        <dd>the first languange</dd>
+    </dl>
+    <!--
+            table head = thead
+            table body = tbody
+            table foot = tfoot
+            table row = tr
+            table header cell = th
+         -->
+
+    <table border="3" cellpadding="2px">
+        <caption> Brother </caption>
+        <thead>
+            <tr>
+                <td>first_name</td>
+                <td> final_name</td>
+                <td> Picture </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Ahmed </td>
+                <td> Mahmoud </td>
+                <td> <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" /> </td>
+            </tr>
+            <tr>
+                <td> Abdelrhman </td>
+                <td> Mahmoud </td>
+                <td> <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" /> </td>
+            </tr>
+            <tr>
+                <td> Aya </td>
+                <td> Mahmoud </td>
+                <td> <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" /></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> Brother </td>
+                <td> Same Picture </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <p>
+        <il> This is my brother </il>
+    </p>
+    <table border="1" cellpadding="0">
+        <caption> Brother </caption>
+        <thead>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+                <td>Four</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmed</td>
+                <td>Abdelrhman</td>
+                <td>Aya</td>
+                <td>Malak</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+
+                <td colspan="4">8 </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <span> this is my page </span>
+    <p> This is <span> My </span> <br> <span> Page </span> </p>
+    <hr>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima odit modi facere nostrum. Illo nam
+    quibusdam dicta non? Ipsum quia numquam inventore odio explicabo. Aperiam nihil dolorum eum tempore.
+
+    <!-- https://www.w3schools.com/html/html_entities.asp (entity html list) -->
+    <div> this is my &lt; o &gt; page </div>
+
+    <hr>
+
+    <header> National Group </header>
+    <nav>
+        <p> <a href=" https://www.youtube.com/watch?v=80WvAnsHOdM&list=RDKLNr84h5qL4&index=4&ab_channel=KQENTERTAINMENT"
+                target="_blank"> Video1 </a> </p>
+        <p> <a href=" https://www.youtube.com/watch?v=80WvAnsHOdM&list=RDKLNr84h5qL4&index=4&ab_channel=KQENTERTAINMENT"
+                target="_blank"> Video2 </a> </p>
+        <p> <a href=" https://www.youtube.com/watch?v=80WvAnsHOdM&list=RDKLNr84h5qL4&index=4&ab_channel=KQENTERTAINMENT"
+                target="_blank"> Video3 </a> </p>
+    </nav>
+
+    <section>
+        <h1> National Group </h1>
+        <p> <img src="imgs/home/1404.jpg" alt=" not show " width="100px" height="100px" /> </p>
+    </section>
+    <footer> footer </footer>
+
+    <hr>
+
+    <div class="header">
+        <p> National Group </p>
+        <li> human </li>
+        <li> human </li>
+        <li> human </li>
+    </div>
+
+    <div class="section">
+        <a href=" https://www.youtube.com/watch?v=j6lPFgNfWoM&list=RDGMEM0s70dY0AfCwh3LqQ-Bv1xg&index=6&ab_channel=RoyKim-Topic "
+            target="_blank"> youtube </a>
+        <P> <a href="imgs/home/1404.jpg" target="_blank">اضغط هنا</a> </P>
+    </div>
+
+    <P> </P>
+
+    <div class="sidebar">
+        sidebar
+        <ul>
+            <h2> National Group </h2>
+            <li> products </li>
+            <li> anything </li>
+            <li> products </li>
+        </ul>
+    </div>
+    <div class="navigation">
+        <li> <a href="imgs/home/1404.jpg" target="_blank"> Photo1 </a> </li>
+        <li> <a href="imgs/home/1404.jpg" target="_blank"> Photo2 </a> </li>
+        <li> <a href="imgs/home/1404.jpg" target="_blank"> Photo3 </a> </li>
+    </div>
+    <p> </p>
+    <div class="contect"> contect </div>
+
+    <div class="footer"> footer </div>
+
+    <hr>
+
+    <header>
+        <h2> National Group </h2>
+        <ul>
+            <li> anything </li>
+            <li> anything </li>
+            <li> anything </li>
+        </ul>
+    </header>
+
+    <nav>
+        <p> <a href="imgs/home/1404.jpg" target="_blank"></a> </p>
+        <p> <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" /> </p>
+    </nav>
+
+    <section>
+        <article> articale </article>
+    </section>
+
+    <section>
+        <figure>
+            <a href="imgs/home/1404.jpg" target="_blank"> Picture </a>
+            <p>
+            <figcaption> ooh my god </figcaption>
+            </p>
+            <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" />
+            <p>
+            <figcaption> ooh my god </figcaption>
+            </p>
+        </figure>
+    </section>
+
+    <section>
+        <div>
+            <p> <a href="imgs/home/1404.jpg" target="_blank"></a> </p>
+            <img src="imgs/home/1404.jpg" alt="not show" width="100px" height="100px" />
+            <p> ooh my god </p>
+        </div>
+    </section>
+
+    <aside> sidebar </aside>
+    <footer> footer </footer>
+
+    <hr>
+    <!-- controls = بيعلي الصوت و يوطيع
+                  autoplay = play audio 
+                -->
+    <audio controls autoplay loop muted>
+        <source src="C:\Users\AyaMahmoud_Hp\Downloads\youtube-17-25-35.apk" type="audio/mpeg">
+        <source src="C:\Users\AyaMahmoud_Hp\Downloads\videoplayback.mp4" type="video/mp4">
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        your browser dont supporte audio tags
+    </audio>
+
+    <hr>
+    <!-- track = translate for video -->
+    <video controls width="350px" height="350px" loop muted poster="imgs/home/1404.jpg">
+        <source src="C:\Users\AyaMahmoud_Hp\Downloads\Siilawy - شايف طيفك (Official Music Video).mp4" type="video/mp4">
+        <source src="C:\Users\AyaMahmoud_Hp\Downloads\Siilawy - شايف طيفك (Official Music Video).mp4" type="video/mp4">
+        your browser doesnot supporte video tags
+        <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="english">
+        <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="italian">
+
+    </video>
+
+    <hr>
+    <!-- form = sign up 
+                         input = inline block 
+                         action = data(send information)
+                         required = must information write 
+                         name = relationship server 
+                         metod = 1- Get (show information customer)
+                         2- Post (not show information customer)
+                         radio = one answer 
+                         checkbox = one or more answer 
+                    -->
+
+    <form method="post" novalidate target="_blank">
+        <div>
+            <label> Username </label>
+            <input type="text" required name="User" value="Aya" readonly>
+        </div>
+
+        <br>
+
+        <div>
+            <label> Password </label>
+            <input type="password" required name="pass" minlength="10" maxlength="20">
+        </div>
+        <br>
+        <div>
+            <label> Email </label>
+            <input type="email" placeholder="Write subject" required value="ayamahmoud@djfhj" name="email" disabled>
+        </div>
+        <br>
+        <div>
+            <label> Subject </label>
+            <input type="text" placeholder="write subject" required name="sub" autofocus>
+        </div>
+        <br>
+        <div>
+            <label> Color </label>
+            <input type="color" name="color">
+        </div>
+        <br>
+        <div>
+            <label> Range </label>
+            <input type="range" name="Range" min="1" max="200" step="30" value="0">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="save">
+            <input type="reset" value="reset">
+        </div>
+        <br>
+        <div>
+            <label for="num"> Number </label>
+            <input id="num" type="number" min="0" max="100" step="10" value="0">
+        </div>
+    </form>
+
+    <hr>
+
+    <form action="aya.fjhj">
+        <div>
+            <label> Username </label>
+            <input type="text" required placeholder="Username">
+        </div>
+
+        <p> </p>
+
+        <div>
+            <label> Password </label>
+            <input type="password" required="required" placeholder="Write a complex pass">
+        </div>
+        <br>
+        <div>
+            <label> Email </label>
+            <input type="email" required="required" placeholder="write a valid email" value="ayamahmoud@sdh">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Save">
+        </div>
+        <div>
+            <input type="hidden" value="kshdhsghs">
+
+        </div>
+        <br>
+        <label for="book"> Choose Book </label>
+        <select id="book" name="books">
+            <optgroup label="Romantic">
+                <option value="1"> Book1 </option>
+                <option value="2"> Book2 </option>
+                <option value="3"> Book3 </option>
+            </optgroup>
+            <optgroup label="Action">
+                <option value="4"> Book4 </option>
+                <option value="5"> Book5 </option>
+                <option value="6"> Book6 </option>
+            </optgroup>
+            <optgroup label="Fmaily">
+                <option value="7" selected> Book7 </option>
+                <option value="8"> Book8 </option>
+                <option value="9"> Book9 </option>
+            </optgroup>
+        </select>
+        <hr>
+
+        <textarea name="subject" cols="20" rows="20" placeholder="write text"> </textarea>
+
+    </form>
+
+    <hr>
+    <div>
+        <input id="Win" type="radio" name="op" value="Windows" checked>
+        <label for="Win"> Windows </label>
+    </div>
+    <div>
+        <input id="mac" type="radio" name="op" value="Mac">
+        <label for="mac"> Mac </label>
+    </div>
+    <div>
+        <input id="Lin" type="radio" name="op" value="Linux">
+        <label for="Lin"> Linux </label>
+    </div>
+    <hr>
+
+    <div>
+        <input id="Win" type="checkbox" name="op" value="Windows" checked>
+        <label for="Win"> Windows </label>
+    </div>
+    <div>
+        <input id="mac" type="checkbox" name="op" value="Mac">
+        <label for="mac"> Mac </label>
+    </div>
+    <div>
+        <input id="Lin" type="checkbox" name="op" value="Linux">
+        <label for="Lin"> Linux </label>
+    </div>
+
+    <hr>
+
+    <div>
+        <label> Upload </label>
+        <input type="file">
+    </div>
+
+    <hr>
+    <div>
+        <label> Search </label>
+        <input type="search">
+    </div>
+    <hr>
+    <div>
+        <label> URl </label>
+        <input type="url">
+    </div>
+    <br>
+    <div>
+        <label> Date </label>
+        <input type="date">
+    </div>
+    <br>
+    <div>
+        <label> Month </label>
+        <input type="month">
+    </div>
+    <br>
+    <div>
+        <label> Time </label>
+        <input type="time">
+    </div>
+    <hr>
+    <input list="programming" name="prog">
+
+    <datalist id="programming">
+        <option value="python">
+        <option value="C++">
+        <option value="C#">
+        <option value="C">
+    </datalist>
+    <hr>
+
+    <!-- 
+       quote = <q> = inline =" hdgsdghjs "
+
+    -->
+    <q> this is my page </q>
+
+    <blockquote> this is my page </blockquote>
+    <button> Start </button>
+    <hr>
+    <div>
+        https://www.youtube.com/watch? <wbr> v=mc__Zm1yoP4&ab_channel=reVerb
+    </div>
+
+    <p> السلام 2 welcome </p>
+    <p> <bdi> السلام </bdi> 2 welcome </p>
+
+    <hr>
+    <code>
+            int x ;
+            int y;
+            cin>>x;
+            cin>>y;
+
+    </code>
+    <p>
+        this is
+        my
+        page
+    </p>
+
+    <pre>
+            this is
+            my 
+            page
+     </pre>
+    <pre>
+                this is
+        my 
+        page
+   </pre>
+
+    <pre>
+    <code>
+        int x;
+        int y;
+        max(x,y);
+    </code>
+   </pre>
+
+    <iframe src="https://w3.gamertak.com/Anime4upWatch3.php" width="400px" height="400px"></iframe>
+
+    <hr>
+    <form>
+        <input type="text">
+        <button> Send </button>
+        <button> Reset </button>
+    </form>
+    <hr>
+    <form>
+        <label for="ski"> skill one </label>
+        <input id="ski" type="checkbox" checked>
+        <label for="sk"> skill two </label>
+        <input id="sk" type="checkbox">
+
+    </form>
+    <hr>
+
+    <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1"> plan one </div>
+    <label id="plan1"> plan one label </label>
+    <div tabindex="0"> plan two </div>
+    <div tabindex="0"> plan three </div>
+
+
+</body>
+
+</html>
